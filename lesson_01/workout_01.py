@@ -1,22 +1,22 @@
-#1
-my_heigh = 173
-print(my_heigh)
-#2
-my_name = "Костя"
-my_name ="Константин Николаев"
-print(my_name)
-#3
-pet_name = input("Как зовут Вашего питомца? ")
-print("Ваш любимчик - "+ pet_name)
-
-print("Как зовут Вашего питомца? ")
-pet_name = input()
-print("Ваш любимчик - "+ pet_name)
-#4
-def print_python():
-    print("Учу Python")
-
-print_python()
+# #1
+# my_heigh = 173
+# print(my_heigh)
+# #2
+# my_name = "Костя"
+# my_name ="Константин Николаев"
+# print(my_name)
+# #3
+# pet_name = input("Как зовут Вашего питомца? ")
+# print("Ваш любимчик - "+ pet_name)
+#
+# print("Как зовут Вашего питомца? ")
+# pet_name = input()
+# print("Ваш любимчик - "+ pet_name)
+# #4
+# def print_python():
+#     print("Учу Python")
+#
+# print_python()
 #5
 def print_letter(let):
     print(let,end=' ')
