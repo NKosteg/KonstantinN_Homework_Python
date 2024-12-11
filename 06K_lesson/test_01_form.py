@@ -5,6 +5,7 @@ from selenium.webdriver.common.by import By
 
 driver = webdriver.Chrome(service=ChromeService(ChromeDriverManager().install()))
 
+
 def test_positive_form():
     #  Открыть страницу
     driver.get('https://bonigarcia.dev/selenium-webdriver-java/data-types.html')
@@ -65,7 +66,3 @@ def test_positive_form():
     color_company = driver.find_element(By.CSS_SELECTOR, '#company').value_of_css_property('color')
     assert color_company == 'rgba(15, 81, 50, 1)'
     driver.quit()
-
-
-
-

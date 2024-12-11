@@ -5,7 +5,9 @@ from webdriver_manager.chrome import ChromeDriverManager
 from selenium.webdriver.common.by import By
 
 driver = webdriver.Chrome(service=ChromeService(ChromeDriverManager().install()))
-    # Параметризировать функцию значениями для формы
+
+
+# Параметризировать функцию значениями для формы
 @pytest.mark.parametrize('selector, data, id_element', [
     ("first-name", 'Иван', '#first-name'),
     ('last-name', 'Петров', '#last-name'),
@@ -30,6 +32,7 @@ def test_form_positive(selector, data, id_element):
     color_field = driver.find_element(By.CSS_SELECTOR, id_element).value_of_css_property('color')
     assert color_field == 'rgba(15, 81, 50, 1)'
 
+
 def test_form_negative():
     #  Открыть страницу
     driver.get('https://bonigarcia.dev/selenium-webdriver-java/data-types.html')
@@ -39,8 +42,3 @@ def test_form_negative():
     # Проверить, что поле Zip code подсвечено красным.
     color_zip_code = driver.find_element(By.CSS_SELECTOR, '#zip-code').value_of_css_property('color')
     assert color_zip_code == 'rgba(132, 32, 41, 1)'
-
-
-
-
-

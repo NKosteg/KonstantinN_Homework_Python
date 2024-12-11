@@ -6,7 +6,7 @@ from time import sleep
 
 browser = webdriver.Chrome(service=ChromeService(ChromeDriverManager().install()))
 browser.get('https://ya.ru')
-browser.implicitly_wait(100)
+# browser.implicitly_wait(100)
 
 txt = browser.find_element(By.CSS_SELECTOR, 'a[data-statlog="2informers.stocks.item.1"]').text
 print(txt)

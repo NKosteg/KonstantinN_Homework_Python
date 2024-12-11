@@ -4,6 +4,7 @@ from selenium.webdriver.chrome.service import Service as ChromeService
 from webdriver_manager.chrome import ChromeDriverManager
 from selenium.webdriver.common.by import By
 
+
 @pytest.fixture()
 def driver():
     # Открыть браузер
@@ -18,7 +19,7 @@ def purchase_total(driver):
     driver.get('https://www.saucedemo.com/')
     driver.maximize_window()
     # Авторизоваться как пользователь standard_user
-    user_name =driver.find_element(By.CSS_SELECTOR, '#user-name')
+    user_name = driver.find_element(By.CSS_SELECTOR, '#user-name')
     user_name.clear()
     user_name.send_keys('standard_user')
     password = driver.find_element(By.CSS_SELECTOR, '#password')
@@ -49,11 +50,7 @@ def purchase_total(driver):
     total = driver.find_element(By.CSS_SELECTOR, 'div.summary_total_label').text
     return total
 
+
 # Провериить, что итоговая сумма равна $58.29
 def test_total(driver):
     assert purchase_total(driver) == 'Total: $58.29'
-
-
-
-
-
