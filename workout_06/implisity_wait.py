@@ -14,4 +14,4 @@ content = browser.find_element(By.CSS_SELECTOR, '#content')
 txt = content.find_element(By.CSS_SELECTOR, 'p.bg-success').text
 print(txt)
 
-sleep(5)
+# sleep(5)
