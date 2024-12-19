@@ -24,5 +24,5 @@ print(cookie)
 # browser.delete_all_cookies()
 # browser.refresh()
 
-# sleep(5)
+sleep(5)
 browser.quit()
