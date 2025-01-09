@@ -87,13 +87,13 @@ print(employee_list[1] + ', ' + employee_list[-2])
 # #8
 # var_1 = 50
 # var_2 = 5
-##
+# #
 # temp = var_1
 # var_1 = var_2
 # var_2 = temp
 # #  или
 # var_1, var_2 = var_2, var_1
-##
+# #
 # print("var_1 ", var_1)
 # print("var_2 ", var_2)
 
