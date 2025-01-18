@@ -1,0 +1,36 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"f2377b5f-d8c2-4bdd-8bb5-9c515c9b3a6c\" name=\"Changes\" comment=\"The eleventh branch, addition\" />\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_BRANCH_BY_REPOSITORY\">\r\n      <map>\r\n        <entry key=\"$PROJECT_DIR$\" value=\"lesson10\" />\r\n      </map>\r\n    </option>\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"GitHubPullRequestSearchHistory\">{\r\n  &quot;lastFilter&quot;: {\r\n    &quot;state&quot;: &quot;OPEN&quot;,\r\n    &quot;assignee&quot;: &quot;NKosteg&quot;\r\n  }\r\n}</component>\r\n  <component name=\"GithubPullRequestsUISettings\">{\r\n  &quot;selectedUrlAndAccountId&quot;: {\r\n    &quot;url&quot;: &quot;https://github.com/NKosteg/KonstantinN_Homework_Python.git&quot;,\r\n    &quot;accountId&quot;: &quot;886a69b4-fc72-4566-a674-f53136eff108&quot;\r\n  }\r\n}</component>\r\n  <component name=\"ProjectColorInfo\">{\r\n  &quot;associatedIndex&quot;: 3\r\n}</component>\r\n  <component name=\"ProjectId\" id=\"2rmvMTpo8ecr5dF6VMOheUXuN8t\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\"><![CDATA[{\r\n  \"keyToString\": {\r\n    \"ASKED_SHARE_PROJECT_CONFIGURATION_FILES\": \"true\",\r\n    \"Notification.DisplayName-DoNotAsk-Vcs Important Messages\": \"VCS important messages\",\r\n    \"Notification.DoNotAsk-Vcs Important Messages\": \"true\",\r\n    \"Python tests.pytest for labirint_test.test_cart_counter.executor\": \"Run\",\r\n    \"Python tests.pytest for test_qa_table_db.test_delete_subject.executor\": \"Run\",\r\n    \"Python tests.pytest for test_yougile_project.test_add_project_with_all_fields.executor\": \"Run\",\r\n    \"Python tests.pytest for test_yougile_project.test_add_project_with_the_required_field.executor\": \"Run\",\r\n    \"Python tests.pytest for test_yougile_project.test_get_list_projects.executor\": \"Run\",\r\n    \"Python tests.pytest for test_yougile_project.test_get_project_negative.executor\": \"Run\",\r\n    \"Python tests.pytest for test_yougile_project.test_title_change_project.executor\": \"Run\",\r\n    \"RunOnceActivity.ShowReadmeOnStart\": \"true\",\r\n    \"RunOnceActivity.git.unshallow\": \"true\",\r\n    \"SHARE_PROJECT_CONFIGURATION_FILES\": \"true\",\r\n    \"git-widget-placeholder\": \"main\",\r\n    \"ignore.virus.scanning.warn.message\": \"true\",\r\n    \"last_opened_file_path\": \"C:/Users/koste/Git/Homework_Python/KonstantinN_Homework_Python\"\r\n  }\r\n}]]></component>\r\n  <component name=\"SharedIndexes\">\r\n    <attachedChunks>\r\n      <set>\r\n        <option value=\"bundled-python-sdk-495700d161d3-aa17d162503b-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-243.22562.220\" />\r\n      </set>\r\n    </attachedChunks>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"f2377b5f-d8c2-4bdd-8bb5-9c515c9b3a6c\" name=\"Changes\" comment=\"\" />\r\n      <created>1737177016555</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1737177016555</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"The eleventh branch, addition\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1737186391904</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1737186391904</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"2\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <MESSAGE value=\"The eleventh branch, addition\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"The eleventh branch, addition\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision ee4d5cd019c93cbc92e3a207aadc4902a019cc2c)
++++ b/.idea/workspace.xml	(date 1737188324213)
+@@ -53,7 +53,7 @@
+     "RunOnceActivity.ShowReadmeOnStart": "true",
+     "RunOnceActivity.git.unshallow": "true",
+     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+-    "git-widget-placeholder": "main",
++    "git-widget-placeholder": "Merging main",
+     "ignore.virus.scanning.warn.message": "true",
+     "last_opened_file_path": "C:/Users/koste/Git/Homework_Python/KonstantinN_Homework_Python"
+   }
+@@ -82,7 +82,15 @@
+       <option name="project" value="LOCAL" />
+       <updated>1737186391904</updated>
+     </task>
+-    <option name="localTasksCounter" value="2" />
++    <task id="LOCAL-00002" summary="The eleventh branch, addition">
++      <option name="closed" value="true" />
++      <created>1737187872565</created>
++      <option name="number" value="00002" />
++      <option name="presentableId" value="LOCAL-00002" />
++      <option name="project" value="LOCAL" />
++      <updated>1737187872565</updated>
++    </task>
++    <option name="localTasksCounter" value="3" />
+     <servers />
+   </component>
+   <component name="VcsManagerConfiguration">
