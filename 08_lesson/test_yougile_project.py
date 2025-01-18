@@ -1,7 +1,7 @@
 from YougileApi import YougileAPI
 
 api = YougileAPI("https://yougile.com")
-token = "" #Подставь значение
+token = "Zbq0TZZNnlG062A4ci+d4mUI1LR2zQFXd5tOZBbw9kyTBNbNofT7qwZGA1tKa+i5" #Подставь значение
 
 
 # Получить список, [GET] /api-v2/projects
