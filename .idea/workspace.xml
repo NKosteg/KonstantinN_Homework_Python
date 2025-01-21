@@ -4,11 +4,33 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f2377b5f-d8c2-4bdd-8bb5-9c515c9b3a6c" name="Changes" comment="Merge remote-tracking branch 'origin/main'&#10;&#10;# Conflicts:&#10;#&#9;.idea/KonstantinN_Homework_Python.iml&#10;#&#9;.idea/misc.xml" />
+    <list default="true" id="f2377b5f-d8c2-4bdd-8bb5-9c515c9b3a6c" name="Changes" comment="Merge remote-tracking branch 'origin/main'&#10;&#10;# Conflicts:&#10;#&#9;.idea/KonstantinN_Homework_Python.iml&#10;#&#9;.idea/misc.xml">
+      <change afterPath="$PROJECT_DIR$/workout_07/conftest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/workout_08/conftest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/workout_11/calculator.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/workout_11/calculator_avg_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/workout_11/calculator_div_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/workout_11/calculator_sum_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/workout_11/conftest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/workout_11/pytest.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workout_07/labirint_page_object_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/workout_07/labirint_page_object_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workout_07/pages/MainPages.py" beforeDir="false" afterPath="$PROJECT_DIR$/workout_07/pages/MainPages.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workout_07/pages/ResultPage.py" beforeDir="false" afterPath="$PROJECT_DIR$/workout_07/pages/ResultPage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workout_08/CompanyApi.py" beforeDir="false" afterPath="$PROJECT_DIR$/workout_08/CompanyApi.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workout_08/test_x_clients.py" beforeDir="false" afterPath="$PROJECT_DIR$/workout_08/test_x_clients.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
@@ -43,6 +65,10 @@
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "Notification.DisplayName-DoNotAsk-Vcs Important Messages": "VCS important messages",
     "Notification.DoNotAsk-Vcs Important Messages": "true",
+    "Python tests..executor": "Run",
+    "Python tests.pytest for calculator1_test.test_calculator.executor": "Run",
+    "Python tests.pytest for labirint_page_object_test.test_cart_counter.executor": "Run",
+    "Python tests.pytest for labirint_page_object_test.test_empty_search_result.executor": "Run",
     "Python tests.pytest for labirint_test.test_cart_counter.executor": "Run",
     "Python tests.pytest for test_qa_table_db.test_delete_subject.executor": "Run",
     "Python tests.pytest for test_yougile_project.test_add_project_with_all_fields.executor": "Run",
@@ -50,11 +76,16 @@
     "Python tests.pytest for test_yougile_project.test_get_list_projects.executor": "Run",
     "Python tests.pytest for test_yougile_project.test_get_project_negative.executor": "Run",
     "Python tests.pytest for test_yougile_project.test_title_change_project.executor": "Run",
+    "Python tests.pytest in calculator_avg_test.py.executor": "Run",
+    "Python tests.pytest in calculator_div_test.py.executor": "Run",
+    "Python tests.pytest in calculator_sum_test.py.executor": "Run",
+    "Python.calculator_test.executor": "Run",
+    "Python.conftest.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/koste/Git/Homework_Python"
+    "last_opened_file_path": "C:/Users/koste/Git/Homework_Python/KonstantinN_Homework_Python"
   }
 }]]></component>
   <component name="SharedIndexes">
@@ -97,8 +128,19 @@
       <option name="project" value="LOCAL" />
       <updated>1737188547704</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Merge remote-tracking branch 'origin/main'&#10;&#10;# Conflicts:&#10;#&#9;.idea/KonstantinN_Homework_Python.iml&#10;#&#9;.idea/misc.xml">
+      <option name="closed" value="true" />
+      <created>1737188726903</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1737188726903</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.ini" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="The eleventh branch, addition" />

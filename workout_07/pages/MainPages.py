@@ -1,13 +1,15 @@
 from selenium.webdriver.common.by import By
+from selenium import webdriver
+from selenium.webdriver.chrome.service import Service as ChromeService
+from selenium.webdriver.ie.webdriver import WebDriver
+from webdriver_manager.chrome import ChromeDriverManager
 
 class MainPage:
 
 
-    def __init__(self, driver):
+    def __init__(self, driver: WebDriver):
         self._driver = driver
-        self._driver.maximize_window()
         self._driver.get('https://www.labirint.ru/')
-        self._driver.implicitly_wait(4)
 
     def set_cookie_policy(self):
         my_cookie = {

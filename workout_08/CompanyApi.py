@@ -4,12 +4,14 @@ class CompanyApi:
 
     def __init__(self, url):
         self.url = url
+        self.params = {"client_token": self.get_token()}
 
     def get_company_list(self, params_to_add=None):
         resp = requests.get(self.url + '/company/list', params=params_to_add)
         return resp.json()
 
     def get_token(self, user='harrypotter', password='expelliarmus'):
+        print("Auth")
         creds = {
             'username': user,
             'password': password
@@ -32,28 +34,21 @@ class CompanyApi:
         return resp.json()
 
     def edit(self, new_id, new_name, new_descr):
-        my_params = {}
-        my_params["client_token"] = self.get_token()
         company = {
             "name": new_name,
             "description": new_descr
         }
-        resp = requests.patch(self.url + '/company/update/' + str(new_id), params=my_params, json=company)
+        resp = requests.patch(self.url + '/company/update/' + str(new_id), params=self.params, json=company)
         # Либо
         # client_token = self.get_token()
-        # resp = requests.patch(f"{self.url}/company/update/{new_id}?client_token={client_token}", json=company)
+        # resp = requests.patch(f"{self.url}/company/update/{new_id}?self.params, json=company)
         return resp.json()
 
     def delete(self, id):
-        my_params = {}
-        my_params["client_token"] = self.get_token()
-        resp =requests.delete(self.url + '/company/' + str(id), params=my_params)
+        resp =requests.delete(self.url + '/company/' + str(id), params=self.params)
         return resp.json()
 
     def deactivate(self, id, status):
-        my_params = {}
-        my_params["client_token"] = self.get_token()
 
-        resp = requests.patch(self.url + '/company/status_update/' + str(id), params=my_params, json={"is_active": status})
+        resp = requests.patch(self.url + '/company/status_update/' + str(id), params=self.params, json={"is_active": status})
         return resp.json()
-
